@@ -38,7 +38,7 @@
                 <h1 class="display-3 hlavni_nadpis">Švýcarsko</h1>
             </div>
         </div>
-    </header>s
+    </header>
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
@@ -174,7 +174,8 @@
                     <p>Švýcarsko vzhledem ke své tradici občanské svrchovanosti generovalo vždy osobnosti, jež chtěly
                         ovlivnit dění nejen ve Švýcarsku, ale i v celém světě, čemuž nahrávala i švýcarská neutralita.
                         Henri
-                        Dunant založil kupříkladu Mezinárodní <b id="red">červený kříž</b> a inicioval Ženevské úmluvy. Za to také v
+                        Dunant založil kupříkladu Mezinárodní <b id="cervena">červený kříž</b> a inicioval Ženevské
+                        úmluvy. Za to také v
                         roce
                         1901, jakožto vůbec první, obdržel Nobelovu cenu za mír. Hned při druhém udělování této ceny
                         uspěli
@@ -316,7 +317,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="img/statni_znak.png" alt="Švýcarský státní symbol" class="mx-auto d-block" id="statni_znak">
+                                <img src="img/statni_znak.png" alt="Švýcarský státní symbol" class="mx-auto d-block"
+                                    id="statni_znak">
                                 <p class="center">Švýcarský státní symbol</p>
                             </td>
                         </tr>
@@ -327,15 +329,21 @@
                     <table class="table">
                         <tr>
                             <th>Simulace válečných operací Švýcarska za posledních 200 let</th>
-                            <td><button class="btn" id="simulace">Klik!</button></td>
+                            <td colspan="2"><button class="btn" id="simulace">Klikni!</button></td>
                         </tr>
                         <tr>
-                            <th>Změna barvy</th>
-                            <td><button class="btn" id="blue">Klik!</button></td>
+                            <th>Švýcarsko</th>
+                                <td>
+                                    <input class="form-check-input" type="radio" name="color" id="red" value="red">
+                                    <label class="form-check-label">Normální</label></td>
+                                <td>  
+                                    <input class="form-check-input" type="radio" name="color" id="blue" value="blue">
+                                    <label class="form-check-label">Vylepšené!</label>
+                                </td>
                         </tr>
                         <tr>
                             <th>Zatím nic</th>
-                            <td><button class="btn disabled" id="zmena">Klik!</button></td>
+                            <td colspan="2"><button class="btn disabled" id="zmena">Klikni!</button></td>
                         </tr>
                     </table>
                 </div>
@@ -360,4 +368,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
