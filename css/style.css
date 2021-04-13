@@ -26,6 +26,29 @@ h5{
     font-family: "Times New Roman", Times, serif;
 }
 
-nav{
+footer,header{
 background-color: rgb(83, 83, 83);
+color: rgb(175, 175, 175);
+}
+
+#simulace{
+    background-color: rgb(219, 0, 0);
+}
+
+.zahlavi{
+    padding-top: 10px;
+}
+
+span{
+    background-color: rgb(219, 0, 0);
+    color: white;
+}
+
+.btn{
+    background-color: rgb(219, 0, 0);
+    color: white;
+}
+
+#red{
+    color: rgb(219, 0, 0);;
 }

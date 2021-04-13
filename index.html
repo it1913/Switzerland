@@ -8,35 +8,37 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/vlajka.png">
+    <link rel="icon" class="logo" href="img/vlajka.png">
     <title>Švýcarsko</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-        <a class="navbar-brand" href="#">
-            <img src="img/vlajka.png" alt="logo" style="width:40px;">
-        </a>
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Základní informace</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Historie</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Zajímavosti</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Statistiky</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="jumbotron jumbotron-fluid pozadi">
-        <div class="container">
-            <h1 class="display-3 hlavni_nadpis">Švýcarsko</h1>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="img/vlajka.png" class="logo" alt="logo" style="width:40px;">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Základní informace</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Historie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Zajímavosti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Statistiky</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="jumbotron jumbotron-fluid pozadi">
+            <div class="container">
+                <h1 class="display-3 hlavni_nadpis">Švýcarsko</h1>
+            </div>
         </div>
-    </div>
+    </header>s
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
@@ -105,11 +107,12 @@
                         Suverénem na úrovni obcí/měst, kantonů a na úrovni spolkové je lid, tedy občané, jimž podléhají
                         s
                         konečnou platností všechna rozhodování, což je zakotveno ve spolkové ústavě a ústavách kantonů:
+                    </p>
                     <ul>
                         <li>o zákonech a ústavách</li>
                         <li>o věcných záležitostech</li>
                     </ul>
-                    </p>
+
                     <p>V praxi je zvykem, některá práva – podle oblasti a zájmů – propůjčit reprezentantům. Jedná se ale
                         vždy o propůjčení dočasné a záleží na spokojenosti občanů, jestli si tu či onu pravomoc nevrátí
                         do
@@ -171,12 +174,15 @@
                     <p>Švýcarsko vzhledem ke své tradici občanské svrchovanosti generovalo vždy osobnosti, jež chtěly
                         ovlivnit dění nejen ve Švýcarsku, ale i v celém světě, čemuž nahrávala i švýcarská neutralita.
                         Henri
-                        Dunant založil kupříkladu Mezinárodní červený kříž a inicioval Ženevské úmluvy. Za to také v
+                        Dunant založil kupříkladu Mezinárodní <b id="red">červený kříž</b> a inicioval Ženevské úmluvy. Za to také v
                         roce
                         1901, jakožto vůbec první, obdržel Nobelovu cenu za mír. Hned při druhém udělování této ceny
                         uspěli
                         znovu Švýcaři – míroví aktivisté a zakladatelé Stálého mezinárodního výboru míru Élie Ducommun a
                         Charles Albert Gobat.</p>
+                </div>
+                <div>
+                    <p id="varovani" class="alert alert-danger">Ano, absolutně nic se nestalo!</p>
                 </div>
             </div>
             <div class="col-lg-4" id="statistika">
@@ -194,7 +200,7 @@
                             </tr>
                             <tr>
                                 <th>Hlavní město</th>
-                                <td scope="row">žádné (de iure) Bern (de facto)</td>
+                                <td>žádné (de iure) Bern (de facto)</td>
                             </tr>
                             <tr>
                                 <th>Rozloha</th>
@@ -202,7 +208,7 @@
                             </tr>
                             <tr>
                                 <th>Nejvyšší bod</th>
-                                <td scope="row">Dufourspitze (4634 m n. m.)</td>
+                                <td>Dufourspitze (4634 m n. m.)</td>
                             </tr>
                             <tr>
                                 <th>Rozloha</th>
@@ -216,7 +222,7 @@
                     <table class="table table-striped">
                         <tr>
                             <th>Počet obyvatel</th>
-                            <td scope="row"> 8 606 033 (2019) (98. na světě, 2017)</td>
+                            <td> 8 606 033 (2019) (98. na světě, 2017)</td>
                         </tr>
                         <tr>
                             <th>Hustota zalidnění</th>
@@ -224,26 +230,27 @@
                         </tr>
                         <tr>
                             <th>Jazyk</th>
-                            <td scope="row">
+                            <td>
                                 <ul class="list-group">
                                     <li class="justify-content-between d-flex align-items-center list-group-item">
                                         němčina
-                                        <span class="badge badge-pill badge-primary">63,7 %</span>
+                                        <span class="badge badge-pill">63,7 %</span>
                                     </li>
                                     <li class="justify-content-between d-flex align-items-center list-group-item">
-                                        francouština <span class="badge badge-pill badge-primary">20,4 %</span></li>
+                                        francouština <span class="badge badge-pill">20,4 %</span></li>
                                     <li class="justify-content-between d-flex align-items-center list-group-item">
                                         italština
-                                        <span class="badge badge-pill badge-primary">8,3 %</span>
+                                        <span class="badge badge-pill">8,3 %</span>
                                     </li>
                                     <li class="justify-content-between d-flex align-items-center list-group-item">
-                                        rétorománština <span class="badge badge-pill badge-primary">0,8 %</span></li>
+                                        rétorománština <span class="badge badge-pill">0,8 %</span></li>
                                 </ul>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <img src="img/mapa_jazyku.png" class="mx-auto d-block img-fluid img-thumbnail">
+                                <img src="img/mapa_jazyku.png" alt="Rozpoložení jazyků ve Švýcarsku"
+                                    class="mx-auto d-block img-fluid img-thumbnail">
                                 <p class="center">Rozpoložení jazyků</p>
                             </td>
                         </tr>
@@ -253,15 +260,15 @@
                                 <ul class="list-group">
                                     <li class="justify-content-between d-flex align-items-center list-group-item">
                                         katolíci
-                                        <span class="badge badge-pill badge-primary">41 %</span>
+                                        <span class="badge badge-pill">41 %</span>
                                     </li>
                                     <li class="justify-content-between d-flex align-items-center list-group-item">
-                                        protestanti <span class="badge badge-pill badge-primary">40 %</span></li>
+                                        protestanti <span class="badge badge-pill">40 %</span></li>
                                     <li class="justify-content-between d-flex align-items-center list-group-item">bez
-                                        vyznání <span class="badge badge-pill badge-primary">11 %</span></li>
+                                        vyznání <span class="badge badge-pill">11 %</span></li>
                                     <li class="justify-content-between d-flex align-items-center list-group-item">
                                         neuvedeno
-                                        <span class="badge badge-pill badge-primary">8 %</span>
+                                        <span class="badge badge-pill">8 %</span>
                                     </li>
                                 </ul>
                             </td>
@@ -273,7 +280,7 @@
                     <table class="table table-striped">
                         <tr>
                             <th>Státní zřízení</th>
-                            <td scope="row">Federativní stranická direktoriální republika s prvky přímé demokracie</td>
+                            <td>Federativní stranická direktoriální republika s prvky přímé demokracie</td>
                         </tr>
                         <tr>
                             <th>Spolková rada</th>
@@ -281,7 +288,7 @@
                         </tr>
                         <tr>
                             <th>Rozhodování a reprezentace</th>
-                            <td scope="row">předsedu vlády Švýcarsko nezná, vláda rozhoduje v konsensu nebo hlasováním,
+                            <td>předsedu vlády Švýcarsko nezná, vláda rozhoduje v konsensu nebo hlasováním,
                                 její
                                 rozhodnutí jsou ale podřízena lidu a parlamentu; reprezentační funkci spolkového
                                 prezidenta
@@ -303,29 +310,54 @@
                     <table class="table">
                         <tr>
                             <td>
-                            <img src="img/vlajka.png" alt="Švýcarská vlajka" class="mx-auto d-block">
-                            <p class="center">Švýcarská vlajka</p></td>
+                                <img src="img/vlajka.png" alt="Švýcarská vlajka" class="mx-auto d-block" id="vlajka">
+                                <p class="center">Švýcarská vlajka</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
-                            <img src="img/statni_znak.png" alt="Švýcarský státní symbol" class="mx-auto d-block">
-                            <p class="center">Švýcarský státní symbol</p>
-                        </td>
+                                <img src="img/statni_znak.png" alt="Švýcarský státní symbol" class="mx-auto d-block" id="statni_znak">
+                                <p class="center">Švýcarský státní symbol</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <h4 class="center special">Panel tlačítek</h4>
+                    <table class="table">
+                        <tr>
+                            <th>Simulace válečných operací Švýcarska za posledních 200 let</th>
+                            <td><button class="btn" id="simulace">Klik!</button></td>
+                        </tr>
+                        <tr>
+                            <th>Změna barvy</th>
+                            <td><button class="btn" id="blue">Klik!</button></td>
+                        </tr>
+                        <tr>
+                            <th>Zatím nic</th>
+                            <td><button class="btn disabled" id="zmena">Klik!</button></td>
                         </tr>
                     </table>
                 </div>
             </div>
         </div>
     </div>
-    <footer>
-        <nav class="navbar navbar-expand-sm navbar-dark">
-            <a class="navbar-brand" href="#">
-                <img src="img/vlajka.png" alt="logo" style="width:40px;">
-            </a>
-        </nav>
+    <footer class="container-fluid">
+        <div class="row zahlavi">
+            <div class="col-lg-4">
+                <p></p>
+            </div>
+            <div class="col-lg-4 center">
+                <h3>Zdroj informací:</h3>
+                <p><a href="https://cs.wikipedia.org/wiki/%C5%A0v%C3%BDcarsko"
+                        target="_blank">https://cs.wikipedia.org/wiki/%C5%A0v%C3%BDcarsko</a></p>
+            </div>
+            <div class="col-lg-4 center">
+                <p>&copy;Martin Kavala, IT2</p>
+            </div>
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
 </html>
