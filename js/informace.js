@@ -45,6 +45,24 @@ const historicalEvents = [
     }
 ];
 
+const personalities = [
+    {
+        "personality": "Henry Dunant",
+        "bio": "Jean Henri Dunant, též Henry Dunant byl švýcarský podnikatel a humanista, iniciátor a spoluzakladatel Mezinárodního Červeného kříže, iniciátor Ženevských úmluv a první nositel Nobelovy ceny za mír z roku 1901.",
+        "image":"../img/Henry_Dunant.jpg"
+    },
+    {
+        "personality": "Henry Dunant",
+        "bio": "Jean Henri Dunant, též Henry Dunant byl švýcarský podnikatel a humanista, iniciátor a spoluzakladatel Mezinárodního Červeného kříže, iniciátor Ženevských úmluv a první nositel Nobelovy ceny za mír z roku 1901.",
+        "image":"../img/Henry_Dunant.jpg"
+    },
+    {
+        "personality": "Henry Dunant",
+        "bio": "Jean Henri Dunant, též Henry Dunant byl švýcarský podnikatel a humanista, iniciátor a spoluzakladatel Mezinárodního Červeného kříže, iniciátor Ženevských úmluv a první nositel Nobelovy ceny za mír z roku 1901.",
+        "image":"../img/Henry_Dunant.jpg"
+    }
+];
+
 $(function () {
 historicalEvents.forEach((historicalEvents) => {
     $("#seznam").append(`<li class="list-group-item list-group-item-action list-group-item-danger akce">${historicalEvents.name}</li>`);
@@ -62,4 +80,20 @@ $("#seznam li").on('click', function () {
     //console.log($(this).text());
     //console.log("ahoj");
 });
+
+personalities.forEach((personalities)=>{
+    $('#osobnosti').append(
+        `<div class="flip-card col-md-4">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="${personalities.image}" alt="${personalities.personality}">
+                </div>
+                <div class="flip-card-back">
+                    <h1>${personalities.personality}</h1> 
+                    <p>${personalities.bio}</p> 
+                </div>
+            </div>
+        </div>`
+    )
+})
 })
