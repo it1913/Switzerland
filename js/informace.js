@@ -47,18 +47,19 @@ const historicalEvents = [
 
 $(function () {
 historicalEvents.forEach((historicalEvents) => {
-    $("#seznam").append(`<li class="list-group-item list-group-item-action list-group-item-primary akce">${historicalEvents.name}</li>`);
+    $("#seznam").append(`<li class="list-group-item list-group-item-action list-group-item-danger akce">${historicalEvents.name}</li>`);
  });
  
  function fillText(text) {
     let historical = historicalEvents.find(item => { return item.name === text });
     console.log(historical);
+    $("#nazev").text(historical.name);
     $("#vypis").text(historical.context);
 }
 fillText(historicalEvents[0].name);
 $("#seznam li").on('click', function () {
     fillText($(this).text());
-    console.log($(this).text());
-    console.log("ahoj");
+    //console.log($(this).text());
+    //console.log("ahoj");
 });
 })
