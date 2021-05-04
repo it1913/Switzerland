@@ -49,17 +49,38 @@ const personalities = [
     {
         "personality": "Henry Dunant",
         "bio": "Jean Henri Dunant, též Henry Dunant byl švýcarský podnikatel a humanista, iniciátor a spoluzakladatel Mezinárodního Červeného kříže, iniciátor Ženevských úmluv a první nositel Nobelovy ceny za mír z roku 1901.",
-        "image":"../img/Henry_Dunant.jpg"
+        "image":"../img/Henry_Dunant.jpg",
+        "link":"https://cs.wikipedia.org/wiki/Henri_Dunant"
     },
     {
-        "personality": "Henry Dunant",
-        "bio": "Jean Henri Dunant, též Henry Dunant byl švýcarský podnikatel a humanista, iniciátor a spoluzakladatel Mezinárodního Červeného kříže, iniciátor Ženevských úmluv a první nositel Nobelovy ceny za mír z roku 1901.",
-        "image":"../img/Henry_Dunant.jpg"
+        "personality": "Vilém Tell",
+        "bio": "Vilém Tell je legendární švýcarský lidový hrdina.",
+        "image":"../img/Vilem_tell.jpg",
+        "link":"https://cs.wikipedia.org/wiki/Vil%C3%A9m_Tell"
     },
     {
-        "personality": "Henry Dunant",
-        "bio": "Jean Henri Dunant, též Henry Dunant byl švýcarský podnikatel a humanista, iniciátor a spoluzakladatel Mezinárodního Červeného kříže, iniciátor Ženevských úmluv a první nositel Nobelovy ceny za mír z roku 1901.",
-        "image":"../img/Henry_Dunant.jpg"
+        "personality": "Paracelsus",
+        "bio": "Paracelsus, vlastním jménem Philippus Aureolus Theophrastus Bombastus von Hohenheim, byl alchymista, astrolog a lékař, který učinil několik důležitých objevů a předznamenal vznik novodobého lékařství",
+        "image":"../img/Paracelsus.jpg",
+        "link":"https://cs.wikipedia.org/wiki/Paracelsus"
+    },
+    {
+        "personality": "Paul Karrer",
+        "bio": "Paul Karrer byl švýcarský organický chemik nejznámější pro svůj výzkum vitamínů. V roce 1937 spolu s Walterem Haworthem získal Nobelovu cenu za chemii za „práce na karotenoidech, flavonoidech a vitamínech A a B2“.",
+        "image":"../img/Paul_Karrer.jpg",
+        "link":"https://cs.wikipedia.org/wiki/Paul_Karrer"
+    },
+    {
+        "personality": "Carl Spitteler",
+        "bio": "Carl Friederich Georg Spitteler byl německy píšící švýcarský básník, prozaik, dramatik a esejista, nositel Nobelovy ceny za literaturu z roku 1919",
+        "image":"../img/Carl_spitteler.jpg",
+        "link":"https://cs.wikipedia.org/wiki/Carl_Spitteler"
+    },
+    {
+        "personality": "Roger Federer",
+        "bio": "Roger Federer je švýcarský profesionální tenista, olympijský vítěz v mužské čtyřhře z Pekingských her 2008 a stříbrný medailista v mužské dvouhře na Letní olympiádě 2012 v Londýně.",
+        "image":"../img/Roger_Federer.jpg",
+        "link":"https://cs.wikipedia.org/wiki/Roger_Federer"
     }
 ];
 
@@ -74,11 +95,16 @@ historicalEvents.forEach((historicalEvents) => {
     $("#nazev").text(historical.name);
     $("#vypis").text(historical.context);
 }
+$("#seznam li:first").addClass('active');
 fillText(historicalEvents[0].name);
 $("#seznam li").on('click', function () {
     fillText($(this).text());
     //console.log($(this).text());
     //console.log("ahoj");
+    $("#seznam li").removeClass('active');
+      /* A nyní přidáním třídy active zvýrazníme právě ten prvek (this), na který bylo kliknuto */
+      $(this).addClass('active');
+      let text =  $(this).text();
 });
 
 personalities.forEach((personalities)=>{
@@ -89,7 +115,7 @@ personalities.forEach((personalities)=>{
                     <img src="${personalities.image}" alt="${personalities.personality}">
                 </div>
                 <div class="flip-card-back">
-                    <h1>${personalities.personality}</h1> 
+                    <h1><a class="a" href="${personalities.link}" target="_blank">${personalities.personality}</a></h1> 
                     <p>${personalities.bio}</p> 
                 </div>
             </div>

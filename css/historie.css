@@ -7,6 +7,8 @@ body {
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   .flip-card-inner {
@@ -49,4 +51,8 @@ body {
 
   .flip-card-front img {
       height: 100%;
+  }
+
+  .a{
+      color: rgb(255, 190, 190) !important;
   }
