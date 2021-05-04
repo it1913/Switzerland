@@ -55,7 +55,7 @@ const personalities = [
     {
         "personality": "Vilém Tell",
         "bio": "Vilém Tell je legendární švýcarský lidový hrdina.",
-        "image": "../img/Vilem_tell.jpg",
+        "image": "../img/Vilem_Tell.jpg",
         "link": "https://cs.wikipedia.org/wiki/Vil%C3%A9m_Tell"
     },
     {
