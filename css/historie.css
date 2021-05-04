@@ -56,3 +56,7 @@ body {
   .a{
       color: rgb(255, 190, 190) !important;
   }
+
+  #vypis{
+      font-size: 20px;
+  }
