@@ -1,0 +1,44 @@
+[
+    {
+        "id": "GENEVE",
+        "name": "Genève",
+        "img": "../geografie/img/geneva.png",
+        "text":"<strong>Ženeva</strong> (</>francouzsky Genève [ženév], italsky Ginevra, německy Genf, švýcarskou němčinou Gämf/Gänf, rétorománsky Genevra, franko-provensálsky Zeneva</i>) je švýcarské město a hlavní město kantonu Ženeva (République et Canton de Genève) v západní části země u francouzských hranic a u výtoku řeky Rhôny z Ženevského jezera, 130 km jihozápadně od hlavního města Bernu. V roce 2014 zde žilo přes 197 000 obyvatel a Ženeva tak byla po Curychu druhým největším městem v zemi. Ve městě sídlí mnoho <strong>mezinárodních organizací</strong>. Ženeva také patří mezi přední <strong>světová finanční centra</strong>. Je neformálním střediskem francouzsky mluvící části Švýcarska. V roce 1559 zde byla založena univerzita."
+    },
+    {
+        "id": "BERN",
+        "name": "Bern",
+        "img": "../geografie/img/bern.png",
+        "text":"<strong>Bern</strong> (<i>francouzsky Berne, italsky a rétorománsky Berna, v místní švýcarské němčině Bärn</i>) je obec ve Švýcarsku, hlavní město stejnojmenného kantonu a <strong>de facto hlavní město Švýcarska</strong> (sídlí zde <strong>vláda a parlament</strong>, ale jeho postavení jako hlavního města ani jako dříve uváděného federálního města není v legislativě zakotveno). Bern leží v okrese Bern-Mittelland."
+    },
+    {
+        "id": "ZURICH",
+        "name": "Zürich",
+        "img": "../geografie/img/zurich.png",
+        "text":"<strong>Curych</strong> (<i>německy Zürich</i>) je největší město Švýcarska a hlavní město stejnojmenného kantonu. Leží v předhůří Alp u severního konce Curyšského jezera, na obou březích řeky Limmat, která zde z jezera vytéká. Je obklopeno lesnatými kopci, nejvyšší z nich Uetliberg dosahuje výšky 869 m n. m. Město se dělí na 12 okresů (<i>Bezirk</i>) a v roce 2014 zde žilo přes 404 783 obyvatel, v celé aglomeraci přes 1,1 milionu obyvatel. V roce 2017 žilo v Curychu 32,5 % cizinců (pro srovnání v Ženevě 47,9 %)."
+    },
+    {
+        "id": "DAVOS",
+        "name": "Davos",
+        "img": "../geografie/img/davos.png",
+        "text": "<strong>Davos</strong> je město ve švýcarském kantonu Graubünden. Leží v údolí řeky Landwasser na rozhraní mezi Plessurskými Alpami a Albulou, v nadmořské výšce 1560 m. Je významným <strong>lyžařským</strong> a <strong>turistickým střediskem</strong> a klimatickými lázněmi. Má téměř 11 000 obyvatel a je tak druhým největším městem Graubündenu."
+    },
+    {
+        "id": "LAUSANNE",
+        "name": "Lausanne",
+        "img": "../geografie/img/lausanne.png",
+        "text": "<strong>Lausanne</strong> (<i>[lózan], ve francouzštině ženský rod, v češtině se používá jako nesklonné jméno středního rodu</i>) je švýcarské město v západní frankofonní části země při severním břehu Ženevského jezera. Nachází se 50 km severovýchodně od Ženevy, je hlavním městem kantonu Vaud a okresu Lausanne. V roce 2015 zde žilo přes 135 000 obyvatel a město tak bylo čtvrtým největším v zemi. Lausanne je hlavním sídlem <strong>Spolkového nejvyššího soudu</strong> (část soudu působí v Lucernu); sídlí zde <strong>Mezinárodní olympijský výbor</strong>, jím řízené a spravované <strong>Olympijské muzeum</strong> a <strong>univerzita UNIL</strong>. V roce 1923 zde byla podepsána <a href='https://cs.wikipedia.org/wiki/Lausannsk%C3%A1_smlouva' target='_blank'>Lausannská smlouva</a>."
+    },
+    {
+        "id": "LUZERN",
+        "name": "Luzern",
+        "img": "../geografie/img/luzern.png",
+        "text":"<strong>Lucern</strong> (<i>německy: Luzern, francouzsky a anglicky: Lucerne, italsky a rétorománsky: Lucerna, místní dialekt Lozärn</i>) je město ve Švýcarsku. Jde o hlavní město stejnojmenného kantonu a také okresu. Leží na severozápadním konci Lucernského jezera u výtoku řeky Reuss a jde o <strong>hospodářské a kulturní centrum regionu Innerschweiz</strong> (<i>resp. středního Švýcarska</i>). Reuss rozděluje Lucern na Staré Město a Nové Město. <strong>Nejstarší zakrytý dřevěný most na světě</strong> (<i>Kapellbrücke</i>) s vodní věží a Most vetešníků (Spreuerbrücke) spojují Staré Město s Novým. Poloha mezi jezerem a horami (Pilatus a Rigi) je obzvláště malebná a urychlila rozvoj Lucernu coby cizineckého města (něm. Fremdenstadt) a turismus od roku 1840."
+    },
+    {
+        "id": "BASEL",
+        "name": "Basel",
+        "img": "../geografie/img/basel-stadt.png",
+        "text": "<strong>Basilej</strong> (<i>německy Basel, francouzsky Bâle, italsky Basilea, rétorománsky Basilea</i>) je švýcarské město ležící při hranicích s Francií a Německem na obou březích Rýna. Je hlavním městem kantonu Basilej-město, historicky vzniklého jako polokanton rozdělením původního většího kantonu Basilej. V roce 2017 zde žilo přibližně 178 tisíc obyvatel a po Curychu a Ženevě tak bylo třetím největším městem v zemi. S aglomerací má kolem 830 000 obyvatel. Významný je farmaceutický a chemický průmysl. Sídlí zde banka pro mezinárodní vypořádání („centrální banka centrálních bank“)."
+    }
+]

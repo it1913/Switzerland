@@ -1,0 +1,184 @@
+[
+    {
+        "id":"GEN",
+        "name":"Genève",
+        "img":"../geografie/img/geneva.png",
+        "population":"488 973",
+        "expanse":"282.49"
+    },
+    {
+        "id":"JUR",
+        "name":"Jura",
+        "img":"../geografie/img/jura.png",
+        "population":"73 035",
+        "expanse":"838.51"
+    },
+    {
+        "id":"NEU",
+        "name":"Neuenburg",
+        "img":"../geografie/img/neuenburg.png",
+        "population":"178 660",
+        "expanse":"802.24"
+    },
+    {
+        "id":"AAR",
+        "name":"Aargau",
+        "img":"../geografie/img/aargau.png",
+        "population":"660 637",
+        "expanse":"1403.76"
+    },
+    {
+        "id":"LUZ",
+        "name":"Luzern",
+        "img":"../geografie/img/luzern.png",
+        "population":"402 205",
+        "expanse":"1493.51"
+    },
+    {
+        "id":"NW",
+        "name":"Nidwalden",
+        "img":"../geografie/img/nidwalden.png",
+        "population":"42 418",
+        "expanse":"275.84"
+    },
+    {
+        "id":"WAL",
+        "name":"Wallis",
+        "img":"../geografie/img/wallis.png",
+        "population":"337 590",
+        "expanse":"5224.49"
+    },
+    {
+        "id":"AR",
+        "name":"Appenzell Ausserrhoden",
+        "img":"../geografie/img/appenzell_ausserrhoden.png",
+        "population":"54 830",
+        "expanse":"242.84"
+    },
+    {
+        "id":"STG",
+        "name":"St. Gallen",
+        "img":"../geografie/img/st._gallen.png",
+        "population":"502 044",
+        "expanse":"2030.75"
+    },
+    {
+        "id":"TES",
+        "name":"Tessin",
+        "img":"../geografie/img/tessin.png",
+        "population":"353 596",
+        "expanse":"2812.21"
+    },
+    {
+        "id":"GLA",
+        "name":"Glaurus",
+        "img":"../geografie/img/glarus.png",
+        "population":"40 107",
+        "expanse":"685.32"
+    },
+    {
+        "id":"GRA",
+        "name":"Graubünden",
+        "img":"../geografie/img/graubunden.png",
+        "population":"196 726",
+        "expanse":"7105.39"
+    },
+    {
+        "id":"SH",
+        "name":"Schaffhausen",
+        "img":"../geografie/img/schaffhausen.png",
+        "population":"80 528",
+        "expanse":"298.43"
+    },
+    {
+        "id":"SCH",
+        "name":"Schwyz",
+        "img":"../geografie/img/schwyz.png",
+        "population":"154 953",
+        "expanse":"907.89"
+    },
+    {
+        "id":"THU",
+        "name":"Thurgau",
+        "img":"../geografie/img/thurgau.png",
+        "population":"269 849",
+        "expanse":"991.77"
+    },
+    {
+        "id":"URI",
+        "name":"Uri",
+        "img":"../geografie/img/uri.png",
+        "population":"36 095",
+        "expanse":"1076.56"
+    },
+    {
+        "id":"ZUR",
+        "name":"Zürich",
+        "img":"../geografie/img/zurich.png",
+        "population":"1 482 650",
+        "expanse":"1728.95"
+    },
+    {
+        "id":"ZUG",
+        "name":"Zug",
+        "img":"../geografie/img/zug.png",
+        "population":"122 962",
+        "expanse":"238.73"
+    },
+    {
+        "id":"FRE",
+        "name":"Freiburg",
+        "img":"../geografie/img/freiburg.png",
+        "population":"310 466",
+        "expanse":"1671.42"
+    },
+    {
+        "id":"BL",
+        "name":"Basel-Landschaft",
+        "img":"../geografie/img/basel-landschaft.png",
+        "population":"284 717",
+        "expanse":"517.67"
+    },
+    {
+        "id":"BER",
+        "name":"Bern",
+        "img":"../geografie/img/bern.png",
+        "population":"1 024 192",
+        "expanse":"5959.59"
+    },
+    {
+        "id":"BS",
+        "name":"Basel-Stadt",
+        "img":"../geografie/img/basel-stadt.png",
+        "population":"193 212",
+        "expanse":"36.95"
+    },
+    {
+        "id":"SO",
+        "name":"Solothurn",
+        "img":"../geografie/img/solothurn.png",
+        "population":"268 639",
+        "expanse":"790.45"
+    },
+    {
+        "id":"OW",
+        "name":"Obwalden",
+        "img":"../geografie/img/obwalden.png",
+        "population":"37 332",
+        "expanse":"490.58"
+    },
+    {
+        "id":"AI",
+        "name":"Appenzell Innerrhoden",
+        "img":"../geografie/img/appenzell_innerrhoden.png",
+        "population":"15 948",
+        "expanse":"172.48"
+    },
+    {
+        "id":"WAA",
+        "name":"Waadt",
+        "img":"../geografie/img/waadt.png",
+        "population":"779 609",
+        "expanse":"3211.94"
+    }
+]
